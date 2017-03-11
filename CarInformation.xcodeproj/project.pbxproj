@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8E14C71B1E7493C70017D47B /* car-info-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E14C71A1E7493C70017D47B /* car-info-icon.png */; };
+		8E14C71D1E7496710017D47B /* images in Resources */ = {isa = PBXBuildFile; fileRef = 8E14C71C1E7496710017D47B /* images */; };
 		8E6788641E6B5E9400BB3E3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6788631E6B5E9400BB3E3C /* AppDelegate.swift */; };
 		8E6788661E6B5E9400BB3E3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6788651E6B5E9400BB3E3C /* ViewController.swift */; };
 		8E6788691E6B5E9400BB3E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E6788671E6B5E9400BB3E3C /* Main.storyboard */; };
@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8E14C71A1E7493C70017D47B /* car-info-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "car-info-icon.png"; path = "../../car-info-icon.png"; sourceTree = "<group>"; };
+		8E14C71C1E7496710017D47B /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		8E6788601E6B5E9400BB3E3C /* CarInformation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarInformation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E6788631E6B5E9400BB3E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E6788651E6B5E9400BB3E3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 				8E6788631E6B5E9400BB3E3C /* AppDelegate.swift */,
 				8E6788651E6B5E9400BB3E3C /* ViewController.swift */,
 				8E6788671E6B5E9400BB3E3C /* Main.storyboard */,
-				8E14C71A1E7493C70017D47B /* car-info-icon.png */,
+				8E14C71C1E7496710017D47B /* images */,
 				8E67886A1E6B5E9400BB3E3C /* Assets.xcassets */,
 				8E67886C1E6B5E9400BB3E3C /* LaunchScreen.storyboard */,
 				8E67886F1E6B5E9400BB3E3C /* Info.plist */,
@@ -125,8 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E14C71D1E7496710017D47B /* images in Resources */,
 				8E67886E1E6B5E9400BB3E3C /* LaunchScreen.storyboard in Resources */,
-				8E14C71B1E7493C70017D47B /* car-info-icon.png in Resources */,
 				8E67886B1E6B5E9400BB3E3C /* Assets.xcassets in Resources */,
 				8E6788691E6B5E9400BB3E3C /* Main.storyboard in Resources */,
 			);
