@@ -10,9 +10,18 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    @IBOutlet weak var btnBrands: UIButton!
+    @IBOutlet weak var btnOBD: UIButton!
+    @IBOutlet weak var btnAddPhoto: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        roundedBtn(btnBrands, width: 1, radius: 5)
+        roundedBtn(btnOBD, width: 1, radius: 5)
+        roundedBtn(btnAddPhoto, width: 1, radius: 5)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -20,6 +29,11 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    func roundedBtn(btn: UIButton, width: CGFloat, radius: CGFloat) {
+        btn.layer.borderColor = UIColor.whiteColor().CGColor
+        btn.layer.borderWidth = width
+        btn.layer.cornerRadius = radius
+    }
 
 }
 

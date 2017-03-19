@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E01FD2A1E7D8CF7008D16F6 /* OBDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E01FD291E7D8CF7008D16F6 /* OBDViewController.swift */; };
 		8E14C71D1E7496710017D47B /* images in Resources */ = {isa = PBXBuildFile; fileRef = 8E14C71C1E7496710017D47B /* images */; };
+		8E1B729B1E7E7C0D00F73761 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1B729A1E7E7C0D00F73761 /* TableViewCell.swift */; };
 		8E6788641E6B5E9400BB3E3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6788631E6B5E9400BB3E3C /* AppDelegate.swift */; };
 		8E6788661E6B5E9400BB3E3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6788651E6B5E9400BB3E3C /* ViewController.swift */; };
 		8E6788691E6B5E9400BB3E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E6788671E6B5E9400BB3E3C /* Main.storyboard */; };
@@ -16,7 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8E01FD291E7D8CF7008D16F6 /* OBDViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OBDViewController.swift; path = ../OBDViewController.swift; sourceTree = "<group>"; };
 		8E14C71C1E7496710017D47B /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		8E1B729A1E7E7C0D00F73761 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		8E6788601E6B5E9400BB3E3C /* CarInformation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CarInformation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E6788631E6B5E9400BB3E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E6788651E6B5E9400BB3E3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +67,8 @@
 				8E67886A1E6B5E9400BB3E3C /* Assets.xcassets */,
 				8E67886C1E6B5E9400BB3E3C /* LaunchScreen.storyboard */,
 				8E67886F1E6B5E9400BB3E3C /* Info.plist */,
+				8E01FD291E7D8CF7008D16F6 /* OBDViewController.swift */,
+				8E1B729A1E7E7C0D00F73761 /* TableViewCell.swift */,
 			);
 			path = CarInformation;
 			sourceTree = "<group>";
@@ -139,6 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E01FD2A1E7D8CF7008D16F6 /* OBDViewController.swift in Sources */,
+				8E1B729B1E7E7C0D00F73761 /* TableViewCell.swift in Sources */,
 				8E6788661E6B5E9400BB3E3C /* ViewController.swift in Sources */,
 				8E6788641E6B5E9400BB3E3C /* AppDelegate.swift in Sources */,
 			);
