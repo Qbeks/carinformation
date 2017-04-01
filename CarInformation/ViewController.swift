@@ -29,8 +29,8 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    func roundedBtn(btn: UIButton, width: CGFloat, radius: CGFloat) {
-        btn.layer.borderColor = UIColor.whiteColor().CGColor
+    func roundedBtn(_ btn: UIButton, width: CGFloat, radius: CGFloat) {
+        btn.layer.borderColor = UIColor.white.cgColor
         btn.layer.borderWidth = width
         btn.layer.cornerRadius = radius
     }

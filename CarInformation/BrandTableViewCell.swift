@@ -1,17 +1,16 @@
 //
-//  TableViewCell.swift
+//  BrandTableViewCell.swift
 //  CarInformation
 //
-//  Created by Kamil Kubis on 19.03.2017.
+//  Created by Kamil Kubis on 28.03.2017.
 //  Copyright © 2017 MobiSoft. All rights reserved.
 //
 
 import UIKit
 
-class TableViewCell: UITableViewCell {
+class BrandTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var labelName: UILabel!
-    @IBOutlet weak var labelDescription: UILabel!
+    @IBOutlet weak var name: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
